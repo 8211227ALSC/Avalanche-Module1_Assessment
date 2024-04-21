@@ -1,0 +1,22 @@
+// SPDX-License-Identifier: MIT
+
+pragma solidity ^0.8.0;
+
+contract ErrorHandling {
+    uint256 public value;
+
+    function setValue(uint256 _value) public {
+        // Require statement - checks conditions and throws an error if not met
+        require(_value > 10, "Number must be greater than 10");
+        
+        // Assert statement - used to ensure internal state is as expected, otherwise throws an error
+        assert(_value != 200);
+        
+        // Revert statement - aborts execution and reverts state changes if condition is not met
+        if (_value == 100) {
+            revert("Number cannot be 100");
+        }
+
+        value = _value;
+    }
+}
