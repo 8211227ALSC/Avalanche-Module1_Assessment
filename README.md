@@ -2,7 +2,7 @@
 Error handling mechanisms are techniques used in programming to manage and respond to errors, exceptions, or unexpected situations that may arise during the execution of code. In the context of Solidity smart contracts, error handling mechanisms are crucial for ensuring the robustness and reliability of the contracts. By using error handling mechanisms effectively, Solidity developers can ensure that their smart contracts behave as intended, handle unexpected situations gracefully, and maintain the integrity of the blockchain network.
 
 ## Description
-Sure! This Solidity smart contract, named ErrorHandling, demonstrates various methods of error handling within Ethereum smart contracts. This contract demonstrates the use of require, assert, and revert statements for different types of error handling in Solidity smart contracts.
+This Solidity smart contract, named ErrorHandling, demonstrates various methods of error handling within Ethereum smart contracts. This contract demonstrates the use of require, assert, and revert statements for different types of error handling in Solidity smart contracts.
 
 ### Executing Program
 To run this program, you can use Remix, an online Solidity IDE. To get started, go to the Remix website at https://remix.ethereum.org/.
